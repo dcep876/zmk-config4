@@ -55,7 +55,7 @@
             key-positions = <16 17>;
         };
 
-        combo_rgui {
+        combo_ralt {
             bindings = <&kp RGUI>;
             key-positions = <16 18>;
         };
