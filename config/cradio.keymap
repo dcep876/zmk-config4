@@ -32,6 +32,40 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        combo_lctrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <13 12>;
+        };
+
+        combo_lgui {
+            bindings = <&kp LGUI>;
+            key-positions = <13 11>;
+        };
+
+        combo_lalt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <13 10>;
+        };
+
+        combo_rctrl {
+            bindings = <&kp RCTRL>;
+            key-positions = <16 17>;
+        };
+
+        combo_rgui {
+            bindings = <&kp RGUI>;
+            key-positions = <16 18>;
+        };
+
+        combo_rgui {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <16 19>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
