@@ -8,9 +8,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
-&mt {
-    quick-tap-ms = <150>;
-};
+&mt { quick-tap-ms = <150>; };
 
 / {
     behaviors {
@@ -87,8 +85,8 @@
             display-name = "Right Layer";
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp NUMBER_4  &kp N5       &kp NUMBER_6    &kp N7          &kp N8        &kp N9           &kp N0
-&kp END       &kp PAGE_DOWN  &kp PG_UP     &kp HOME      &trans       &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT        &kp APOS
-&caps_word    &trans         &trans        &mkp LCLK     &mkp RCLK    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp ENTER
+&caps_word    &kp PAGE_DOWN  &kp PG_UP     &kp HOME      &kp END      &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT        &kp APOS
+&trans        &trans         &trans        &mkp LCLK     &mkp RCLK    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp ENTER
                                            &trans        &trans       &trans          &trans
             >;
         };
